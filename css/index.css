@@ -103,6 +103,8 @@ li{
 	line-height: 100px;
 	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 	z-index: 2;
+	background-color: #FFFFFF;
+	z-index: 3;
 }
 .head-nav .w .right .shoping:hover .tanchu{
 	height: 100px;	
@@ -110,8 +112,9 @@ li{
 
 /*head-tab部分*/
 .head-tab{
-	height: 100px;
+	height: 56px;
 	padding: 22px 0px;
+	
 	/*100-44=56px*/
 }
 
@@ -143,6 +146,8 @@ li{
 	position: relative;
 	height: 50px;
 	width: 294px;
+	margin-right: 1px;
+	
 }
 .head-tab .headTab-sou input[name="sou"]{
 	width: 244px;
@@ -210,6 +215,8 @@ li{
 	position: absolute;
 	top: 50px;
 	left: 0px;
+	z-index: 3;
+	background-color: #FFFFFF;
 	display: none;
 }
 .head-tab .headTab-sou .menu ul{}
@@ -229,3 +236,77 @@ li{
 .head-tab .headTab-sou .menu ul li a .right{
 	color: #b0b0b0;
 }
+/*carousel部分*/
+.carousel{
+	height: 460px;
+}
+.carousel .carousel-tp{
+	position: relative;
+}
+.carousel .carousel-tp ul{
+	position: relative;
+	width: 1226px;
+	height: 460px;
+}
+.carousel .carousel-tp ul li{
+	width: 1226px;
+	height: 460px;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	display: none;
+}
+.carousel .carousel-tp ul li img{
+	width: inherit;
+	height:inherit;
+}
+.carousel .carousel-tp .box{
+	position: absolute;
+	bottom: 25px;
+	right: 30px;
+	cursor: pointer;
+}
+.carousel .carousel-tp .box span{
+	margin: 0px 5px;
+	height: 6px;
+	width: 6px;
+	display: inline-block;
+	border: 2px #a29b95 solid;
+	border-radius: 50%;
+	background-color:#8f857a ;
+}
+.carousel .carousel-tp .box span.active,.carousel .carousel-tp .box span:hover{
+	border-color: #818181;
+	background-color: #f3f3f3;
+}
+.carousel .carousel-tp .but{
+	width: 40px;
+	height: 70px;
+	border-radius: 2px;
+	background-color: rgba(0,0,0,0);
+	color: #767676;
+	font-size: 50px;
+	font-weight: 200;
+	line-height: 65px;
+	text-align: center;
+	position: absolute;
+}
+.carousel .carousel-tp .but:hover{
+	background-color: #767676;
+	color: #FFFFFF;
+	opacity:0.6;
+}
+.carousel .carousel-tp .top{
+	left: 232px;
+	top: 50%;
+	margin-top: -35px;
+}
+.carousel .carousel-tp .btm{
+	right: 0px;
+	top: 50%;
+	margin-top: -35px;
+}
+
+
+
