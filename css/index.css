@@ -328,7 +328,7 @@ li{
 	line-height: 42px;
 	padding: 0px 30px;
 }
-.carousel .carousel-menu ul li:hover{
+.carousel .carousel-menu ul li.active{
 	background-color: #ff6700;
 	color: #FFFFFF;
 }
@@ -349,6 +349,11 @@ li{
 	left: 232px;
 }
 .carousel .mune-tab .children{
+	display: none;
+	width:auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 	padding: 1px;
 	padding-left: 0px;
 	height: inherit;
@@ -356,7 +361,7 @@ li{
 	box-sizing: border-box;
 	border: 1px #e0e0e0 solid;
 	border-left-width:0px ;
-	box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+	box-shadow: 8px 8px 16px rgba(0,0,0,0.1);
 	background-color: #FFFFFF;
 }
 .carousel .mune-tab .children ul{

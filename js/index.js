@@ -90,4 +90,32 @@ $(document).ready(function() {
 		images.eq(index).fadeIn(200); //下一张淡入
 		points.removeClass("active").eq(index).addClass("active");
 	});
+	
+	//.carousel .mune-tab .children  菜单切换效果
+	var liTab=$(".carousel .carousel-menu ul li");
+	var muneTab=$(".carousel .mune-tab .children");
+	var muneTabUl=$(".carousel .mune-tab .children>ul");
+	muneTab.css("width",muneTabUl.width()*muneTabUl.length+2+"px");
+		
+//	alert(muneTabUl.eq(0).children().length);
+	
+	liTab.hover(function(){
+		idx=$(this).index();
+		muneTab.hide();
+		muneTab.eq(idx).show()
+		liTab.removeClass("active");
+		$(this).addClass("active");
+	},function(){
+		liTab.removeClass("active");
+		muneTab.hide()
+	});
+	muneTab.hover(function(){
+		idx2=$(this).index();
+		muneTab.eq(idx).show()
+		liTab.removeClass("active");
+		liTab.eq(idx2).addClass("active");
+	},function(){
+		liTab.removeClass("active");
+		muneTab.hide()
+	});
 });
