@@ -19,6 +19,7 @@
 	display: block;
 	clear: both;
 }
+
 a{
 	text-decoration: none;
 	color: inherit;
@@ -230,7 +231,9 @@ li{
 	box-sizing: border-box;
 	padding: 0px 23px;
 }
-.head-tab .headTab-sou .menu ul li a{}
+.head-tab .headTab-sou .menu ul li a{
+	height: inherit;
+}
 .head-tab .headTab-sou .menu ul li a .left{
 	color: #424242;
 }
@@ -299,7 +302,7 @@ li{
 	color: #FFFFFF;
 }
 .carousel .carousel-tp .top{
-	left: 232px;
+	left: 234px;
 	top: 50%;
 	margin-top: -35px;
 }
@@ -310,7 +313,7 @@ li{
 }
 
 .carousel .carousel-menu{
-	width: 232px;
+	width: 234px;
 	background-color: rgba(0,0,0,0.4);
 	position: absolute;
 	top: 0px;
@@ -332,7 +335,11 @@ li{
 	background-color: #ff6700;
 	color: #FFFFFF;
 }
-.carousel .carousel-menu ul li a{}
+.carousel .carousel-menu ul li a:after{
+	content: "";
+	display: block;
+	clear: both;
+}
 .carousel .carousel-menu ul li a .left{}
 .carousel .carousel-menu ul li a .right{
 	line-height: 42px;
@@ -346,7 +353,7 @@ li{
 	/*width: 994px;*/
 	height: 460px;
 	top: 0px;
-	left: 232px;
+	left: 234px;
 }
 .carousel .mune-tab .children{
 	display: none;
@@ -354,14 +361,13 @@ li{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	padding: 1px;
-	padding-left: 0px;
+	padding: 2px 0px;
 	height: inherit;
 	/*width: inherit;*/
 	box-sizing: border-box;
-	border: 1px #e0e0e0 solid;
+	/*border: 1px #e0e0e0 solid;*/
 	border-left-width:0px ;
-	box-shadow: 8px 8px 16px rgba(0,0,0,0.1);
+	box-shadow: 4px 4px 16px rgba(0,0,0,0.3);
 	background-color: #FFFFFF;
 }
 .carousel .mune-tab .children ul{
@@ -413,3 +419,170 @@ li{
 	color: #FFFFFF;
 }
 
+/*show 部分*/
+.show{
+	margin-top: 14px;
+	height: 170px;
+}
+.show ul{
+	width: inherit;
+	height: inherit;
+}
+.show ul li{
+	float: left;
+	height: inherit;
+}
+.show ul .s1{
+	position: relative;
+	background-color: #5f5750;
+	color: #cdcac8;
+	width: 234px;
+	margin-right: 14px;
+	padding: 9px;
+	box-sizing: border-box;
+}
+.show ul .s1 .item:hover{
+	color: #fff;
+}
+.show ul .s1 .item{
+	text-align: center;
+	width: 72px;
+	height: 76px;
+	box-sizing: border-box;
+	float: left;
+}
+.show ul .s1 .item span{
+	font-size: 12px;
+	/*line-height: 18px;*/
+}
+.show ul .s1 .item span.fa{
+	font-size: 20px;
+	display: block;
+	margin-top: 12px;
+}
+.show ul .s1 .item1{}
+.show ul .s1 .item2{
+	border-left: 1px #665e57 solid;
+	border-right: 1px #665e57 solid;
+}
+.show ul .s1 .item3{}
+.show ul .s1 .item4{
+	border-top: 1px #665e57 solid;
+}
+.show ul .s1 .item5{
+	border-top: 1px #665e57 solid;
+	border-left: 1px #665e57 solid;
+	border-right: 1px #665e57 solid;
+	
+}
+.show ul .s1 .item6{
+	border-top: 1px #665e57 solid;
+	
+}
+.show ul .s1 .sp{
+	width: 12px;
+	height: 12px;
+	display: block;
+	position: absolute;
+	background-color: #5f5750;
+	z-index: 3;
+}
+.show ul .s1 .sp1{
+	top:80px;
+	left: 75px;
+}
+.show ul .s1 .sp2{
+	top:80px;
+	right: 75px;
+}
+.show ul .s{
+	width: 316px;
+	margin-right: 15px;
+}
+.show ul .s4{
+	margin-right: 0px;
+}
+.show ul .s a{}
+.show ul .s a img{
+	width: 316px;
+	height: 170px;
+}
+
+
+/*小米明星单品部分*/
+
+.mxdp{
+	margin-top: 24px;
+	position: relative;
+}
+.mxdp .title{
+	font-size: 20px;
+	line-height: 58px;
+}
+.mxdp .span{
+	position: absolute;
+	right: 0px;
+	top: 26px;
+	font-size: 12px;
+	z-index: 4;
+}
+.mxdp .span span{
+	width: 34px;
+	height: 22px;
+	color: #e0e0e2;
+	display: inline-block;
+	line-height: 22px;
+	border: 1px #e0e0e0 solid;
+	text-align: center;
+}
+.mxdp .span span.active{
+	cursor: pointer;
+	color: #b4c1d4;
+}
+.mxdp .box{
+	width: inherit;
+	overflow: hidden;
+}
+.mxdp .box ul{
+	margin-bottom: 40px;
+	position: relative;
+}
+.mxdp .box ul li{
+	border-top: 1px #FF6700 solid;
+	margin-right: 14px;
+	float: left;
+	width: 234px;
+	height: 340px;
+	text-align: center;
+	background-color: #fafafa;
+}
+.mxdp .box ul li .img{
+	margin: 30px auto;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+}
+.mxdp .box ul li .img a img{
+	width: 160px;
+	height: 160px;
+}
+.mxdp .box ul li .t{
+	font-size: 12px;
+	line-height: 1.8em;
+	text-align: center;
+	width: 100%;
+}
+.mxdp .box ul li .t1{
+	color: #212121;
+}
+.mxdp .box ul li .t2{
+	color: #B0B0B0;
+}
+.mxdp .box ul li .t3{
+	color: #FF6700;
+}
+/*content部分*/
+.content{
+	width: 100%;
+	background-color: #f5f5f5;
+}

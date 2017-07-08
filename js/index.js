@@ -95,10 +95,11 @@ $(document).ready(function() {
 	var liTab=$(".carousel .carousel-menu ul li");
 	var muneTab=$(".carousel .mune-tab .children");
 	var muneTabUl=$(".carousel .mune-tab .children>ul");
-	muneTab.css("width",muneTabUl.width()*muneTabUl.length+2+"px");
+//	muneTab.css("width",muneTabUl.width()*muneTabUl.length+2+"px");
 		
-//	alert(muneTabUl.eq(0).children().length);
-	
+		for (var i=0;i<muneTab.length;i++) {
+			muneTab.eq(i).css("width",muneTab.eq(i).children().length*muneTabUl.width()+"px")
+		};
 	liTab.hover(function(){
 		idx=$(this).index();
 		muneTab.hide();
@@ -117,5 +118,57 @@ $(document).ready(function() {
 	},function(){
 		liTab.removeClass("active");
 		muneTab.hide()
+	});
+	
+	
+	
+	
+	//小米明星单品部分
+	
+	var mxdpUl=$(".mxdp .box ul");
+	var mxdpLi=$(".mxdp .box ul li");
+	var mxdpSpan=$(".mxdp .span span");
+	var mxdpSpanActive=$(".mxdp .span span.active");
+	var timer2=null;
+	var idx2=0;
+	var colorArr=["yellow","red","orange","green","#ff6700","blue","orange","red","green","#ff6700"];
+	
+	mxdpUl.css("width",(mxdpLi.width()+14)*mxdpLi.length+"px");
+	for (var i=0;i<mxdpLi.length;i++) {
+		mxdpLi.eq(i).css("border-color",colorArr[i]);
+	};
+	
+	
+	function startTimer2(){
+		clearInterval(timer2);
+		timer2=setInterval(function(){
+			idx2=(idx2+1)%2;
+			console.log(idx2);
+			mxdpUl.animate({left:(-1240*idx2)+"px"},800)
+			mxdpSpan.removeClass("active").eq(idx2).addClass("active");
+		},10000);
+	};
+	startTimer2();
+	
+	
+	mxdpSpan.eq(0).click(function(){
+		if (idx2==0) {
+			idx2=1;
+		} else{
+			return;
+		};
+		mxdpUl.animate({left:(-1240*idx2)+"px"},600);
+		mxdpSpan.removeClass("active").eq(idx2).addClass("active");
+		startTimer2();
+	});
+	mxdpSpan.eq(1).click(function(){
+		if (idx2==0) {
+			return;
+		} else{
+			idx2=0;
+		};
+		mxdpUl.animate({left:(-1240*idx2)+"px"},600);
+		mxdpSpan.removeClass("active").eq(idx2).addClass("active");
+		startTimer2();
 	});
 });
