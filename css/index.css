@@ -586,3 +586,203 @@ li{
 	width: 100%;
 	background-color: #f5f5f5;
 }
+
+
+/*商品展示部分*/
+.content{
+	padding:20px 0px;
+}
+
+.content .spBox{
+}
+.content .spBox .spTopBox{
+	height: 60px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.content .spBox .spTopBox .title{
+	font-size: 22px;
+	line-height: 60px;
+	color: #333;
+}
+.content .spBox .spTopBox .right{
+	line-height: 60px
+}
+.content .spBox .spTopBox .right span{
+	font-size: 16px;
+	color: #424242;
+	line-height: 28px;
+	display: inline-block;
+	margin-left: 30px;
+	border-bottom: 2px solid rgba(0,0,0,0);
+	transition: all 0.3s;
+}
+.content .spBox .spTopBox .right span.active{
+	border-bottom: 2px solid #ff6700;
+	color: #ff6700;
+}
+.content .spBox .spBtmBox{
+	position: relative;
+}
+
+.content .spBox .spBtmBox>.left:hover{
+	transform: translateY(-4px);
+	box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+.content .spBox .spBtmBox>.left{
+	transition: all 0.3s;
+	position: relative;
+	width:234px;
+	height: 614px;
+	overflow: hidden;
+	/*margin-left: 14px;*/
+}
+.content .spBox .spBtmBox>.left img{
+	width: inherit;
+	height: inherit;
+}
+.content .spBox .spBtmBox>.right{
+	width: 992px;
+	display: none;
+	height: 614px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.content .spBox .spBtmBox .right ul{
+	width: inherit;
+	height: inherit;
+	/*overflow: hidden;*/
+}
+.content .spBox .spBtmBox .right ul li:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.3);
+	transform: translateY(-4px);
+}
+.content .spBox .spBtmBox .right ul li:not(.lt){
+	margin-top: 14px;
+}
+.content .spBox .spBtmBox .right ul li{
+	transition: all 0.3s;
+	position: relative;
+	height: 300px;
+	width: 234px;
+	margin-left: 14px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	float: left;
+}
+.content .spBox .spBtmBox .right ul li .top{
+	position: absolute;
+	top: 0px;
+	left:50%;
+	margin-left: -29px;
+	width: 58px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #e53935;
+}
+.content .spBox .spBtmBox .right ul li .img{
+	display: block;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 18px;
+}
+.content .spBox .spBtmBox .right ul li .img img{
+	width: 150px;
+	height: 150px;
+}
+.content .spBox .spBtmBox .right ul li h1{
+	font-size: 12px;
+	line-height: 30px;
+	color: #333333;
+	text-align: center;
+	font-weight: normal;
+}
+
+.content .spBox .spBtmBox .right ul li h4{
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 36px;
+	color: #B0B0B0;
+	text-align: center;
+}
+.content .spBox .spBtmBox .right ul li h3{
+	font-weight: normal;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+	color: #FF6700;
+}
+.content .spBox .spBtmBox .right ul li:hover .bottom{
+	bottom: 0px;
+}
+.content .spBox .spBtmBox .right ul li .bottom{
+	font-size: 11px;
+	height: 76px;
+	width: 234px;
+	line-height: 18px;
+	padding: 10px 30px;
+	background-color: #FF6700;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	position: absolute;
+	transition: all 0.3s;
+	bottom: -76px;
+}
+
+.content .spBox .spBtmBox .right ul li .bottom span{
+	display: block;
+	padding-top: 6px;
+	color: #ffc299;
+}
+.content .spBox .spBtmBox .right ul li.mixbox{
+	height: 143px;
+	box-sizing: border-box;
+	padding: 32px 30px 31px;
+}
+.content .spBox .spBtmBox .right ul li.mixbox div{
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+}
+.content .spBox .spBtmBox .right ul li.mixbox div img{
+	width: inherit;
+	height: inherit;
+}
+.content .spBox .spBtmBox .right ul li.mixbox div h1{
+	line-height: 30px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: left;
+}
+.content .spBox .spBtmBox .right ul li.mixbox div h3{
+	line-height: 30px;
+	text-align: left;
+}
+.content .spBox .spBtmBox .right ul li.mixbox .left{
+	padding:10px 0px;
+}
+.content .spBox .spBtmBox .right ul li.mixbox .right{
+	text-align: center;
+}
+.content .spBox .spBtmBox .right ul li.gengduo .left h1{
+	font-size: 20px;
+}
+.content .spBox .spBtmBox .right ul li.gengduo .left h3{
+	font-size: 14px;
+	color: #757575;
+}
+
+.content .spBox .spBtmBox .right ul li.gengduo .right span{
+	font-size:52px;
+	line-height: 80px;
+	color: #ff6700;
+	font-weight: 100;
+}

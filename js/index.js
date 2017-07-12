@@ -171,4 +171,32 @@ $(document).ready(function() {
 		mxdpSpan.removeClass("active").eq(idx2).addClass("active");
 		startTimer2();
 	});
+	
+	//商品展示部分
+	var spBtmBoxRight1=$(".content .spBox .spBtmBox1>div.right");
+	var spBtmBoxRight2=$(".content .spBox .spBtmBox2>div.right");
+	var spBtmBoxRight3=$(".content .spBox .spBtmBox3>div.right");
+	var spBtmBoxRight4=$(".content .spBox .spBtmBox4>div.right");
+	var spBtmBoxRight5=$(".content .spBox .spBtmBox5>div.right");
+	var spTopBoxRightSpan1=$(".content .spBox .spTopBox1 .right span");
+	var spTopBoxRightSpan2=$(".content .spBox .spTopBox2 .right span");
+	var spTopBoxRightSpan3=$(".content .spBox .spTopBox3 .right span");
+	var spTopBoxRightSpan4=$(".content .spBox .spTopBox4 .right span");
+	var spTopBoxRightSpan5=$(".content .spBox .spTopBox5 .right span");
+	
+	tabSpBox(spTopBoxRightSpan1,spBtmBoxRight1);
+	tabSpBox(spTopBoxRightSpan2,spBtmBoxRight2);
+	tabSpBox(spTopBoxRightSpan3,spBtmBoxRight3);
+	tabSpBox(spTopBoxRightSpan4,spBtmBoxRight4);
+	tabSpBox(spTopBoxRightSpan5,spBtmBoxRight5);
+	
+	//将tab切换特效封装成一个函数 通过调用函数来给给一个上加上事件
+	function tabSpBox(a,b){
+		a.mouseenter(function(){
+			var idx2=$(this).index();
+			a.removeClass("active");
+			$(this).addClass("active")
+			b.hide().eq(idx2).show();
+		});
+	};
 });
