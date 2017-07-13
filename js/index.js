@@ -143,7 +143,6 @@ $(document).ready(function() {
 		clearInterval(timer2);
 		timer2=setInterval(function(){
 			idx2=(idx2+1)%2;
-			console.log(idx2);
 			mxdpUl.animate({left:(-1240*idx2)+"px"},800)
 			mxdpSpan.removeClass("active").eq(idx2).addClass("active");
 		},10000);
@@ -193,10 +192,55 @@ $(document).ready(function() {
 	//将tab切换特效封装成一个函数 通过调用函数来给给一个上加上事件
 	function tabSpBox(a,b){
 		a.mouseenter(function(){
-			var idx2=$(this).index();
+			var idx3=$(this).index();
 			a.removeClass("active");
 			$(this).addClass("active")
-			b.hide().eq(idx2).show();
+			b.hide().eq(idx3).show();
 		});
 	};
+	
+		//为您推荐部分
+	
+	var wntjUl=$(".wntj .box ul");
+	var wntjLi=$(".wntj .box ul li");
+	var wntjSpan=$(".wntj .span span");
+	var wntjSpanActive=$(".wntj .span span.active");
+	var timera=null;
+	var idxa=0;
+	
+	wntjUl.css("width",(wntjLi.width()+14)*wntjLi.length+"px");
+	
+	wntjSpan.eq(0).click(function(){
+		if (idxa<0) {
+			wntjSpan.eq(1).removeClass("active");
+		} else{
+			wntjSpan.eq(1).addClass("active");
+		};
+		if (idxa<4) {
+			idxa++;
+		$(this).addClass("active");
+		} else{
+			$(this).removeClass("active");
+			return;
+		};
+		
+		wntjUl.animate({left:(-1240*idxa)+"px"},600);
+	});
+	wntjSpan.eq(1).click(function(){
+		if (idxa>4) {
+			wntjSpan.eq(0).removeClass("active");
+		} else{
+			wntjSpan.eq(0).addClass("active");
+		};
+		if (idxa>0) {
+			idxa=idxa-1;
+			$(this).addClass("active");
+		} else{
+			$(this).removeClass("active")
+			return;
+		};
+		
+		wntjUl.animate({left:(-1240*idxa)+"px"},600);
+	});
+	
 });

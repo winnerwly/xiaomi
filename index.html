@@ -1,974 +1,1594 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>仿小米官网首页</title>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
-	<script type="text/javascript" src="js/index.js" ></script>
-</head>
-<body>
-	<div class="haedImg">
-		<a href="#"></a>
-	</div>
-	<div class="head-nav">
-		<div class="w">
-			<div class="left">
-				<a href="#">小米商城</a><span>|</span>
-				<a href="#">MIUI</a><span>|</span>
-				<a href="#">米聊</a><span>|</span>
-				<a href="#">游戏</a><span>|</span>
-				<a href="#">多看阅读</a><span>|</span>
-				<a href="#">云服务</a><span>|</span>
-				<a href="#">金融</a><span>|</span>
-				<a href="#">小米商城移动版</a><span>|</span>
-				<a href="#">问题反馈</a><span>|</span>
-				<a href="#">Select Region</a>
-			</div>
-			<div class="right">
-				<a href="#">登录</a><span>|</span>
-				<a href="#">注册</a><span>|</span>
-				<a href="#">消息通知</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<div class="shoping">
-					<span class="fa fa-shopping-cart"></span>购物车(0)
-					<div class="tanchu">
-						购物车中还没有商品，赶紧选购吧！
+
+	<head>
+		<meta charset="UTF-8">
+		<title>仿小米官网首页</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+
+	<body>
+		<div class="haedImg">
+			<a href="#"></a>
+		</div>
+		<div class="head-nav">
+			<div class="w">
+				<div class="left">
+					<a href="#">小米商城</a><span>|</span>
+					<a href="#">MIUI</a><span>|</span>
+					<a href="#">米聊</a><span>|</span>
+					<a href="#">游戏</a><span>|</span>
+					<a href="#">多看阅读</a><span>|</span>
+					<a href="#">云服务</a><span>|</span>
+					<a href="#">金融</a><span>|</span>
+					<a href="#">小米商城移动版</a><span>|</span>
+					<a href="#">问题反馈</a><span>|</span>
+					<a href="#">Select Region</a>
+				</div>
+				<div class="right">
+					<a href="#">登录</a><span>|</span>
+					<a href="#">注册</a><span>|</span>
+					<a href="#">消息通知</a><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<div class="shoping">
+						<span class="fa fa-shopping-cart"></span>购物车(0)
+						<div class="tanchu">
+							购物车中还没有商品，赶紧选购吧！
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="head-tab w">
-		<div class="img img1 left">
-			<img src="img/logo.png"/>
-		</div>
-		<div class="img img2 left">
-			<img src="img/xiaomigif.gif"/>
-		</div>
-		<div class="headTab-nav left">
-			<ul>
-				<li>小米手机</li>
-				<li>红米</li>
-				<li>平板·笔记本</li>
-				<li>电视</li>
-				<li>盒子·影音</li>
-				<li>路由器</li>
-				<li>智能硬件</li>
-				<li>服务</li>
-				<li>社区</li>
-			</ul>
-		</div>
-		<div class="headTab-sou right">
-			<div class="int-box left">
-				<input type="text" name="sou" id="sou" value="" />
-				<div class="box">
-					<a href="#">小米电视4A直降300</a>
-					<a href="#">小米5C</a>
-				</div>
+		<div class="head-tab w">
+			<div class="img img1 left">
+				<img src="img/logo.png" />
 			</div>
-			<label for="zend left">
+			<div class="img img2 left">
+				<img src="img/xiaomigif.gif" />
+			</div>
+			<div class="headTab-nav left">
+				<ul>
+					<li>小米手机</li>
+					<li>红米</li>
+					<li>平板·笔记本</li>
+					<li>电视</li>
+					<li>盒子·影音</li>
+					<li>路由器</li>
+					<li>智能硬件</li>
+					<li>服务</li>
+					<li>社区</li>
+				</ul>
+			</div>
+			<div class="headTab-sou right">
+				<div class="int-box left">
+					<input type="text" name="sou" id="sou" value="" />
+					<div class="box">
+						<a href="#">小米电视4A直降300</a>
+						<a href="#">小米5C</a>
+					</div>
+				</div>
+				<label for="zend left">
 				<div><span class="fa fa-search"></span></div>
 			</label>
-			<input type="submit" id="zend" name="" />
-			<div class="menu">
-				<ul>
-					<li><a href="#"><span class="left">小米6</span><span class="right">约有7件</span></a></li>
-					<li><a href="#"><span class="left">红米Note 4X</span><span class="right">约有8件</span></a></li>
-					<li><a href="#"><span class="left">小米MIX</span><span class="right">约有1件</span></a></li>
-					<li><a href="#"><span class="left">小米Max2</span><span class="right">约有3件</span></a></li>
-					<li><a href="#"><span class="left">小米手机5c</span><span class="right">约有3件</span></a></li>
-					<li><a href="#"><span class="left">手环</span><span class="right">约有6件</span></a></li>
-					<li><a href="#"><span class="left">耳机</span><span class="right">约有19件</span></a></li>
-					<li><a href="#"><span class="left">充电宝</span><span class="right">约有19件</span></a></li>
-					<li><a href="#"><span class="left">运动鞋</span><span class="right">约有2件</span></a></li>
-					<li><a href="#"><span class="left">路由器</span><span class="right">约有17件</span></a></li>
-					<li><a href="#"><span class="left">小米盒子</span><span class="right">约有8件</span></a></li>
-				</ul>
+				<input type="submit" id="zend" name="" />
+				<div class="menu">
+					<ul>
+						<li>
+							<a href="#"><span class="left">小米6</span><span class="right">约有7件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">红米Note 4X</span><span class="right">约有8件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">小米MIX</span><span class="right">约有1件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">小米Max2</span><span class="right">约有3件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">小米手机5c</span><span class="right">约有3件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">手环</span><span class="right">约有6件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">耳机</span><span class="right">约有19件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">充电宝</span><span class="right">约有19件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">运动鞋</span><span class="right">约有2件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">路由器</span><span class="right">约有17件</span></a>
+						</li>
+						<li>
+							<a href="#"><span class="left">小米盒子</span><span class="right">约有8件</span></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="carousel w">
-		<div class="carousel-tp">
+		<div class="carousel w">
+			<div class="carousel-tp">
+				<ul>
+					<li>
+						<a href="#"><img src="img/tp1.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/tp2.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/tp3.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/tp4.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/tp5.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/tp6.jpg" /></a>
+					</li>
+				</ul>
+				<div class="box"></div>
+				<div class="but top"><span class="fa fa-angle-left"></span></div>
+				<div class="but btm"><span class="fa fa-angle-right"></span></div>
+			</div>
+			<div class="carousel-menu">
+				<ul>
+					<li>
+						<a href="#"><span class="left">手机 电话卡</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">笔记本 平板</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">电视 盒子</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">路由器 智能硬件</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">移动电源 电池 插线板</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">耳机 音箱</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">保护套 贴膜</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">线材 支架 存储卡</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">箱包 服饰 鞋 眼镜</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+					<li>
+						<a href="#"><span class="left">米兔 周边</span><span class="right fa fa-angle-right"></span></a>
+					</li>
+				</ul>
+			</div>
+			<div class="mune-tab">
+				<div class="children">
+					<ul>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+								<div class="right">选购</div>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="left">
+									<div class="img left">
+										<img src="img/xm6_80.png" />
+									</div>
+									<span class="left">小米6</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="children" style="width: 994px;height: 460px;background-color: yellow;">
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+				</div>
+
+				<div class="children" style="width: 994px;height: 460px;background-color: red;">
+					<ul></ul>
+					<ul></ul>
+				</div>
+				<div class="children" style="width: 994px;height: 460px;background-color: green;">
+					<ul></ul>
+				</div>
+
+				<div class="children" style="width: 994px;height: 460px;background-color: pink;">
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+				</div>
+				<div class="children" style="width: 994px;height: 460px;background-color: darkcyan;">
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+				</div>
+
+				<div class="children" style="width: 994px;height: 460px;background-color: slateblue;">
+					<ul></ul>
+					<ul></ul>
+				</div>
+				<div class="children" style="width: 994px;height: 460px;background-color: darkmagenta;">
+					<ul></ul>
+				</div>
+
+				<div class="children" style="width: 994px;height: 460px;background-color: darkblue;">
+					<ul></ul>
+					<ul></ul>
+				</div>
+				<div class="children" style="width: 994px;height: 460px;background-color: #FF6700;">
+					<ul></ul>
+					<ul></ul>
+					<ul></ul>
+				</div>
+			</div>
+		</div>
+		<div class="show w">
 			<ul>
-				<li><a href="#"><img src="img/tp1.jpg"/></a></li>
-				<li><a href="#"><img src="img/tp2.jpg"/></a></li>
-				<li><a href="#"><img src="img/tp3.jpg"/></a></li>
-				<li><a href="#"><img src="img/tp4.jpg"/></a></li>
-				<li><a href="#"><img src="img/tp5.jpg"/></a></li>
-				<li><a href="#"><img src="img/tp6.jpg"/></a></li>
-			</ul>
-			<div class="box"></div>
-			<div class="but top"><span class="fa fa-angle-left"></span></div>
-			<div class="but btm"><span class="fa fa-angle-right"></span></div>
-		</div>
-		<div class="carousel-menu">
-			<ul>
-				<li><a href="#"><span class="left">手机 电话卡</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">笔记本 平板</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">电视 盒子</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">路由器 智能硬件</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">移动电源 电池 插线板</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">耳机 音箱</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">保护套 贴膜</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">线材 支架 存储卡</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">箱包 服饰 鞋 眼镜</span><span class="right fa fa-angle-right"></span></a></li>
-				<li><a href="#"><span class="left">米兔 周边</span><span class="right fa fa-angle-right"></span></a></li>
-			</ul>
-		</div>
-		<div class="mune-tab">
-			<div class="children">
-				<ul>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-				</ul>
-				<ul>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-						<div class="right">选购</div>
-					</a></li>
-				</ul>
-				<ul>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-					</a></li>
-					<li><a href="#">
-						<div class="left">
-							<div class="img left">
-								<img src="img/xm6_80.png"/>
-							</div>
-							<span class="left">小米6</span>
-						</div>
-					</a></li>
-				</ul>
-			</div>
-			<div class="children" style="width: 994px;height: 460px;background-color: yellow;">
-				<ul></ul>
-				<ul></ul>
-				<ul></ul>
-				<ul></ul>
-			</div>
-			
-			<div class="children" style="width: 994px;height: 460px;background-color: red;">
-				<ul></ul>
-				<ul></ul>
-			</div>
-			<div class="children" style="width: 994px;height: 460px;background-color: green;">
-				<ul></ul>
-			</div>
-			
-			<div class="children" style="width: 994px;height: 460px;background-color: pink;">
-				<ul></ul>
-				<ul></ul>
-				<ul></ul>
-			</div>
-			<div class="children" style="width: 994px;height: 460px;background-color: darkcyan;">
-				<ul></ul>
-				<ul></ul>
-				<ul></ul>
-				<ul></ul>
-			</div>
-			
-			<div class="children" style="width: 994px;height: 460px;background-color: slateblue;">
-				<ul></ul>
-				<ul></ul>
-			</div>
-			<div class="children" style="width: 994px;height: 460px;background-color: darkmagenta;">
-				<ul></ul>
-			</div>
-			
-			<div class="children" style="width: 994px;height: 460px;background-color: darkblue;">
-				<ul></ul>
-				<ul></ul>
-			</div>
-			<div class="children" style="width: 994px;height: 460px;background-color: #FF6700;">
-				<ul></ul>
-				<ul></ul>
-				<ul></ul>
-			</div>
-		</div>
-	</div>
-	<div class="show w">
-		<ul>
-			<li class="s1">
-				<span class="sp1 sp"></span>
-				<span class="sp2 sp"></span>
-				<div class="item item1">
-					<a href="#"><span class="fa fa-phone"></span><span>选购手机</span></a href="#">
-				</div>
-				<div class="item item2">
-					<a href="#"><span class="fa fa-shopping-basket"></span><span>企业团购</span></a href="#">
-				</div>
-				<div class="item item3">
-					<a href="#"><span class="fa fa-cny"></span><span>一元活动</span></a href="#">
-				</div>
-				<div class="item item4">
-					<a href="#"><span class="fa fa-ils"></span><span>小米移动</span></a href="#">
-				</div>
-				<div class="item item5">
-					<a href="#"><span class="fa fa-refresh"></span><span>以旧换新</span></a href="#">
-				</div>
-				<div class="item item6">
-					<a href="#"><span class="fa fa-credit-card-alt"></span><span>话费充值</span></a href="#">
-				</div>
-			</li>
-			<li class="s s2"><a href="#"><img src="img/show1.jpg"/></a></li>
-			<li class="s s3"><a href="#"><img src="img/show2.jpg"/></a></li>
-			<li class="s s4	"><a href="#"><img src="img/show3.jpg"/></a></li>
-		</ul>
-	</div>
-	<div class="mxdp w clear">
-		<div class="title">小米明星单品</div>
-		<div class="span">
-			<span class="fa fa-chevron-left active"></span>
-			<span class="fa fa-chevron-right"></span>
-		</div>
-		<div class="box">
-			<ul class="clear">
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp1.png"/></a></div>
-					<div class="t t1"><a href="#">小米5S 64GB</a></div>
-					<div class="t t2"><a href="#">"暗夜之眼"超感光相机</a></div>
-					<div class="t t3"><a href="#">1999元</a></div>
+				<li class="s1">
+					<span class="sp1 sp"></span>
+					<span class="sp2 sp"></span>
+					<div class="item item1">
+						<a href="#"><span class="fa fa-phone"></span><span>选购手机</span></a href="#">
+					</div>
+					<div class="item item2">
+						<a href="#"><span class="fa fa-shopping-basket"></span><span>企业团购</span></a href="#">
+					</div>
+					<div class="item item3">
+						<a href="#"><span class="fa fa-cny"></span><span>一元活动</span></a href="#">
+					</div>
+					<div class="item item4">
+						<a href="#"><span class="fa fa-ils"></span><span>小米移动</span></a href="#">
+					</div>
+					<div class="item item5">
+						<a href="#"><span class="fa fa-refresh"></span><span>以旧换新</span></a href="#">
+					</div>
+					<div class="item item6">
+						<a href="#"><span class="fa fa-credit-card-alt"></span><span>话费充值</span></a href="#">
+					</div>
 				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp2.png"/></a></div>
-					<div class="t t1"><a href="#">小米手环2</a></div>
-					<div class="t t2"><a href="#">OLED显示屏幕,升级计步算法</a></div>
-					<div class="t t3"><a href="#">149元</a></div>
+				<li class="s s2">
+					<a href="#"><img src="img/show1.jpg" /></a>
 				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp3.png"/></a></div>
-					<div class="t t1"><a href="#">小米铁圈耳机PRO</a></div>
-					<div class="t t2"><a href="#">独创双动圈+动铁,三单元发声</a></div>
-					<div class="t t3"><a href="#">149元</div>
+				<li class="s s3">
+					<a href="#"><img src="img/show2.jpg" /></a>
 				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp4.png"/></a></div>
-					<div class="t t1"><a href="#">小米笔记本</a></div>
-					<div class="t t2"><a href="#">更轻更薄,像杂志一样随身携带</a></div>
-					<div class="t t3"><a href="#">3599元起</a></div>
-				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp5.png"/></a></div>
-					<div class="t t1"><a href="#">小米路由器3</a></div>
-					<div class="t t2"><a href="#">更快更强,不止四天线</a></div>
-					<div class="t t3"><a href="#">149元</a></div>
-				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp6.png"/></a></div>
-					<div class="t t1"><a href="#">红米Note 4X</a></div>
-					<div class="t t2"><a href="#">4100mAh超长续航,多彩金属</a></div>
-					<div class="t t3"><a href="#">999元起</a></div>
-				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp7.png"/></a></div>
-					<div class="t t1"><a href="#">10000mAh小米移动电源2</a></div>
-					<div class="t t2"><a href="#">双向快充,高密度锂聚合物电芯</a></div>
-					<div class="t t3"><a href="#">79元</a></div>
-				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp8.png"/></a></div>
-					<div class="t t1"><a href="#">小米电视4A 49英寸 标准版</a></div>
-					<div class="t t2"><a href="#">直降300元,全高清HDR</a></div>
-					<div class="t t3"><a href="#">2299元</a></div>
-				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp9.png"/></a></div>
-					<div class="t t1"><a href="#">小米MIX</a></div>
-					<div class="t t2"><a href="#">6.4"全面屏,全陶瓷机身</a></div>
-					<div class="t t3"><a href="#">3499元起</div>
-				</li>
-				<li>
-					<div class="img"><a href="#"><img src="img/mxdp10.png"/></a></div>
-					<div class="t t1"><a href="#">米家空气净化器PRO</a></div>
-					<div class="t t2"><a href="#">OLED显示屏幕,激光颗粒物传感器</a></div>
-					<div class="t t3"><a href="#">1499元</a></div>
+				<li class="s s4	">
+					<a href="#"><img src="img/show3.jpg" /></a>
 				</li>
 			</ul>
 		</div>
-	</div>
-	<div class="content clear">
-		<div class="spBox w clear">
-			<div class="spTopBox spTopBox1 clear">
-				<div class="title left">家电</div>
-				<div class="right">
-					<span class="active">热门</span>
-					<span>电视影音</span>
-					<span>电脑</span>
-					<span>家居</span>
+		<div class="mxdp w clear">
+			<div class="title">小米明星单品</div>
+			<div class="span">
+				<span class="fa fa-chevron-left active"></span>
+				<span class="fa fa-chevron-right"></span>
+			</div>
+			<div class="box">
+				<ul class="clear">
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp1.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">小米5S 64GB</a>
+						</div>
+						<div class="t t2">
+							<a href="#">"暗夜之眼"超感光相机</a>
+						</div>
+						<div class="t t3">
+							<a href="#">1999元</a>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp2.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">小米手环2</a>
+						</div>
+						<div class="t t2">
+							<a href="#">OLED显示屏幕,升级计步算法</a>
+						</div>
+						<div class="t t3">
+							<a href="#">149元</a>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp3.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">小米铁圈耳机PRO</a>
+						</div>
+						<div class="t t2">
+							<a href="#">独创双动圈+动铁,三单元发声</a>
+						</div>
+						<div class="t t3">
+							<a href="#">149元</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp4.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">小米笔记本</a>
+						</div>
+						<div class="t t2">
+							<a href="#">更轻更薄,像杂志一样随身携带</a>
+						</div>
+						<div class="t t3">
+							<a href="#">3599元起</a>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp5.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">小米路由器3</a>
+						</div>
+						<div class="t t2">
+							<a href="#">更快更强,不止四天线</a>
+						</div>
+						<div class="t t3">
+							<a href="#">149元</a>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp6.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">红米Note 4X</a>
+						</div>
+						<div class="t t2">
+							<a href="#">4100mAh超长续航,多彩金属</a>
+						</div>
+						<div class="t t3">
+							<a href="#">999元起</a>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp7.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">10000mAh小米移动电源2</a>
+						</div>
+						<div class="t t2">
+							<a href="#">双向快充,高密度锂聚合物电芯</a>
+						</div>
+						<div class="t t3">
+							<a href="#">79元</a>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp8.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">小米电视4A 49英寸 标准版</a>
+						</div>
+						<div class="t t2">
+							<a href="#">直降300元,全高清HDR</a>
+						</div>
+						<div class="t t3">
+							<a href="#">2299元</a>
+						</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp9.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">小米MIX</a>
+						</div>
+						<div class="t t2">
+							<a href="#">6.4"全面屏,全陶瓷机身</a>
+						</div>
+						<div class="t t3">
+							<a href="#">3499元起</div>
+					</li>
+					<li>
+						<div class="img">
+							<a href="#"><img src="img/mxdp10.png" /></a>
+						</div>
+						<div class="t t1">
+							<a href="#">米家空气净化器PRO</a>
+						</div>
+						<div class="t t2">
+							<a href="#">OLED显示屏幕,激光颗粒物传感器</a>
+						</div>
+						<div class="t t3">
+							<a href="#">1499元</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content clear">
+			<div class="spBox w clear">
+				<div class="spTopBox spTopBox1 clear">
+					<div class="title left">家电</div>
+					<div class="right">
+						<span class="active">热门</span>
+						<span>电视影音</span>
+						<span>电脑</span>
+						<span>家居</span>
+					</div>
+				</div>
+				<div class="spBtmBox spBtmBoxa spBtmBox1">
+					<div class="left images-left">
+						<img src="img/jdrm0.jpg" />
+					</div>
+					<div class="right" style="display: block;">
+						<ul>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm1.jpg" /></a>
+								<h1><a href="#">米家恒温电水壶</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm2.jpg" /></a>
+								<h1><a href="#">米家智能吸尘机器人</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm3.jpg" /></a>
+								<h1><a href="#">米家良心电饭煲</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm4.png" /></a>
+								<h1><a href="#">小米智能电视A1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm5.png" /></a>
+								<h1><a href="#">小米智能电视A2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm6.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm7.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="lb mixbox">
+								<div class="left">
+									<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
+									<h3>299元</h3>
+								</div>
+								<div class="right"><img src="img/jdrm8.jpg" /></div>
+							</li>
+							<li class="gengduo mixbox">
+								<div class="left">
+									<h1 title=""><a href="#">浏览更多</a></h1>
+									<h3><a href="#">热门</a></h3>
+								</div>
+								<div class="right">
+									<a href="#"><span class="fa fa-arrow-circle-o-right"></span></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="right" style="background-color: red;"></div>
+					<div class="right" style="background-color: green;"></div>
+					<div class="right" style="background-color: blue;"></div>
 				</div>
 			</div>
-			<div class="spBtmBox spBtmBox1">
-				<div class="left">
-					<img src="img/jdrm0.jpg"/>
+
+			<div class="spBox w clear">
+				<div class="spTopBox spTopBox2 clear">
+					<div class="title left">智能</div>
+					<div class="right">
+						<span class="active">热门</span>
+						<span>出行</span>
+						<span>健康</span>
+						<span>酷玩</span>
+						<span>路由器</span>
+					</div>
 				</div>
-				<div class="right" style="display: block;">
-					<ul>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm1.jpg"/></a>
-							<h1><a href="#">米家恒温电水壶</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm2.jpg"/></a>
-							<h1><a href="#">米家智能吸尘机器人</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm3.jpg"/></a>
-							<h1><a href="#">米家良心电饭煲</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm4.png"/></a>
-							<h1><a href="#">小米智能电视A1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm5.png"/></a>
-							<h1><a href="#">小米智能电视A2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm6.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm7.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="lb mixbox">
-							<div class="left">
-								<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
-								<h3>299元</h3>
+				<div class="spBtmBox spBtmBoxb spBtmBox2">
+					<div class="left">
+						<div class="img"><img src="img/jdrmzn1.jpg" /></div>
+						<div class="img"><img src="img/jdrmzn2.jpg" /></div>
+					</div>
+					<div class="right" style="display: block;">
+						<ul>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm1.jpg" /></a>
+								<h1><a href="#">米家恒温电水壶</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm2.jpg" /></a>
+								<h1><a href="#">米家智能吸尘机器人</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm3.jpg" /></a>
+								<h1><a href="#">米家良心电饭煲</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm4.png" /></a>
+								<h1><a href="#">小米智能电视A1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm5.png" /></a>
+								<h1><a href="#">小米智能电视A2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm6.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm7.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="lb mixbox">
+								<div class="left">
+									<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
+									<h3>299元</h3>
+								</div>
+								<div class="right"><img src="img/jdrm8.jpg" /></div>
+							</li>
+							<li class="gengduo mixbox">
+								<div class="left">
+									<h1 title=""><a href="#">浏览更多</a></h1>
+									<h3><a href="#">热门</a></h3>
+								</div>
+								<div class="right">
+									<a href="#"><span class="fa fa-arrow-circle-o-right"></span></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="right" style="background-color: red;"></div>
+					<div class="right" style="background-color: green;"></div>
+					<div class="right" style="background-color: blue;"></div>
+					<div class="right" style="background-color: darkmagenta;"></div>
+				</div>
+			</div>
+
+			<div class="spBox w clear">
+				<div class="spTopBox spTopBox3 clear">
+					<div class="title left">搭配</div>
+					<div class="right">
+						<span class="active">热门</span>
+						<span>耳机音箱</span>
+						<span>电源</span>
+						<span>电池储存卡</span>
+					</div>
+				</div>
+				<div class="spBtmBox3 spBtmBoxb spBtmBox">
+					<div class="left">
+						<div class="img"><img src="img/jdrmdp1.jpg" /></div>
+						<div class="img"><img src="img/jdrmdp2.jpg" /></div>
+					</div>
+					<div class="right" style="display: block;">
+						<ul>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm1.jpg" /></a>
+								<h1><a href="#">米家恒温电水壶</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm2.jpg" /></a>
+								<h1><a href="#">米家智能吸尘机器人</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm3.jpg" /></a>
+								<h1><a href="#">米家良心电饭煲</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm4.png" /></a>
+								<h1><a href="#">小米智能电视A1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm5.png" /></a>
+								<h1><a href="#">小米智能电视A2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm6.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm7.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="lb mixbox">
+								<div class="left">
+									<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
+									<h3>299元</h3>
+								</div>
+								<div class="right"><img src="img/jdrm8.jpg" /></div>
+							</li>
+							<li class="gengduo mixbox">
+								<div class="left">
+									<h1 title=""><a href="#">浏览更多</a></h1>
+									<h3><a href="#">热门</a></h3>
+								</div>
+								<div class="right">
+									<a href="#"><span class="fa fa-arrow-circle-o-right"></span></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="right" style="background-color: red;"></div>
+					<div class="right" style="background-color: green;"></div>
+					<div class="right" style="background-color: blue;"></div>
+				</div>
+			</div>
+
+			<div class="spBox w clear">
+				<div class="spTopBox4 spTopBox clear">
+					<div class="title left">配件</div>
+					<div class="right">
+						<span class="active">热门</span>
+						<span>保护套</span>
+						<span>贴膜</span>
+						<span>热门配件</span>
+					</div>
+				</div>
+				<div class="spBtmBox4  spBtmBoxb spBtmBox">
+					<div class="left">
+						<div class="img"><img src="img/jdrmpj1.jpg" /></div>
+						<div class="img"><img src="img/jdrmpj2.jpg" /></div>
+					</div>
+					<div class="right" style="display: block;">
+						<ul>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm1.jpg" /></a>
+								<h1><a href="#">米家恒温电水壶</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm2.jpg" /></a>
+								<h1><a href="#">米家智能吸尘机器人</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm3.jpg" /></a>
+								<h1><a href="#">米家良心电饭煲</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm4.png" /></a>
+								<h1><a href="#">小米智能电视A1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm5.png" /></a>
+								<h1><a href="#">小米智能电视A2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm6.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm7.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="lb mixbox">
+								<div class="left">
+									<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
+									<h3>299元</h3>
+								</div>
+								<div class="right"><img src="img/jdrm8.jpg" /></div>
+							</li>
+							<li class="gengduo mixbox">
+								<div class="left">
+									<h1 title=""><a href="#">浏览更多</a></h1>
+									<h3><a href="#">热门</a></h3>
+								</div>
+								<div class="right">
+									<a href="#"><span class="fa fa-arrow-circle-o-right"></span></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="right" style="background-color: red;"></div>
+					<div class="right" style="background-color: green;"></div>
+					<div class="right" style="background-color: blue;"></div>
+				</div>
+			</div>
+
+			<div class="spBox w clear">
+				<div class="spTopBox5 spTopBox clear">
+					<div class="title left">周边</div>
+					<div class="right">
+						<span class="active">热门</span>
+						<span>服装</span>
+						<span>米兔</span>
+						<span>生活周边</span>
+						<span>箱包</span>
+					</div>
+				</div>
+				<div class="spBtmBox5 spBtmBoxb spBtmBox">
+					<div class="left">
+						<div class="img"><img src="img/jdrmzb1.jpg" /></div>
+						<div class="img"><img src="img/jdrmzb2.jpg" /></div>
+					</div>
+					<div class="right" style="display: block;">
+						<ul>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm1.jpg" /></a>
+								<h1><a href="#">米家恒温电水壶</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm2.jpg" /></a>
+								<h1><a href="#">米家智能吸尘机器人</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm3.jpg" /></a>
+								<h1><a href="#">米家良心电饭煲</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la lt">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm4.png" /></a>
+								<h1><a href="#">小米智能电视A1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm5.png" /></a>
+								<h1><a href="#">小米智能电视A2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm6.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari1</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="la">
+								<div class="top">享九折</div>
+								<a class="img" href="#"><img src="img/jdrm7.jpg" /></a>
+								<h1><a href="#">小米笔记本Ari2</a></h1>
+								<h4>水温智能控制,304不锈钢内胆</h4>
+								<h3>199元</h3>
+								<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
+									<span>来自小明的评论..</span>
+								</p>
+							</li>
+							<li class="lb mixbox">
+								<div class="left">
+									<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
+									<h3>299元</h3>
+								</div>
+								<div class="right"><img src="img/jdrm8.jpg" /></div>
+							</li>
+							<li class="gengduo mixbox">
+								<div class="left">
+									<h1 title=""><a href="#">浏览更多</a></h1>
+									<h3><a href="#">热门</a></h3>
+								</div>
+								<div class="right">
+									<a href="#"><span class="fa fa-arrow-circle-o-right"></span></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="right" style="background-color: red;"></div>
+					<div class="right" style="background-color: green;"></div>
+					<div class="right" style="background-color: blue;"></div>
+					<div class="right" style="background-color: blueviolet;"></div>
+				</div>
+			</div>
+
+			<div class="wntj w clear">
+				<div class="title">为您推荐</div>
+				<div class="span">
+					<span class="fa fa-chevron-left active"></span>
+					<span class="fa fa-chevron-right"></span>
+				</div>
+				<div class="box">
+					<ul class="clear">
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp1.png" /></a>
 							</div>
-							<div class="right"><img src="img/jdrm8.jpg"/></div>
-						</li>
-						<li class="gengduo mixbox">
-							<div class="left">
-								<h1 title=""><a href="#">浏览更多</a></h1>
-								<h3><a href="#">热门</a></h3>
+							<div class="t t1">
+								<a href="#">小米5S 64GB</a>
 							</div>
-							<div class="right"><a href="#"><span class="fa fa-arrow-circle-o-right"></span></a></div>
+							<div class="t t3">
+								<a href="#">1999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp2.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米手环2</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp3.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米铁圈耳机PRO</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp4.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米笔记本</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp5.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米路由器3</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp6.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">红米Note 4X</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp7.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">10000mAh小米移动电源2</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp8.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米电视4A 49英寸 标准版</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp9.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米MIX</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp10.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">米家空气净化器PRO</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp3.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米铁圈耳机PRO</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp4.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米笔记本</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp5.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米路由器3</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp6.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">红米Note 4X</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp7.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">10000mAh小米移动电源2</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp7.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">10000mAh小米移动电源2</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp8.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米电视4A 49英寸 标准版</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp9.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米MIX</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp10.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">米家空气净化器PRO</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp3.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米铁圈耳机PRO</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp10.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">米家空气净化器PRO</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp3.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米铁圈耳机PRO</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp4.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米笔记本</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp5.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">小米路由器3</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+						<li>
+							<div class="img">
+								<a href="#"><img src="img/mxdp6.png" /></a>
+							</div>
+							<div class="t t1">
+								<a href="#">红米Note 4X</a>
+							</div>
+							<div class="t t3">
+								<a href="#">999元</a>
+							</div>
+							<div class="t t2">
+								<a href="#">2342人好评</a>
+							</div>
+						</li>
+											
+					</ul>
+				</div>
+			</div>
+			<div class="rpcp w clear">
+				<div class="title">热评产品</div>
+				<div class="box">
+					<ul class="clear">
+						<li>
+							<div class="img"><img src="img/rpcp1.jpg"/></div>
+							<div class="p">
+							<div class="p1">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有连接成功吧，回头再细细研究一下哦，希望米家以后推出更多老百姓爱戴的产品</div>
+							<div class="p2">来自于 HZG 的评价</div>
+							<div class="p3">米家压力电饭煲<a href="#"></a>|<span>999元</span></div>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="img/rpcp2.jpg"/></div>
+							<div class="p">
+							<div class="p1">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有连接成功吧，回头再细细研究一下哦，希望米家以后推出更多老百姓爱戴的产品</div>
+							<div class="p2">来自于 HZG 的评价</div>
+							<div class="p3">米家压力电饭煲<a href="#"></a>|<span>999元</span></div>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="img/rpcp3.jpg"/></div>
+							<div class="p">
+							<div class="p1">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有连接成功吧，回头再细细研究一下哦，希望米家以后推出更多老百姓爱戴的产品</div>
+							<div class="p2">来自于 HZG 的评价</div>
+							<div class="p3">米家压力电饭煲<a href="#"></a>|<span>999元</span></div>
+							</div>
+						</li>
+						<li>
+							<div class="img"><img src="img/rpcp4.jpg"/></div>
+							<div class="p">
+							<div class="p1">包装很让人感动，式样也很可爱，做出的饭全家人都爱吃，超爱五星！手机控制还是不太熟练，最主要是没有连接成功吧，回头再细细研究一下哦，希望米家以后推出更多老百姓爱戴的产品</div>
+							<div class="p2">来自于 HZG 的评价</div>
+							<div class="p3">米家压力电饭煲<a href="#"></a>|<span>999元</span></div>
+							</div>
 						</li>
 					</ul>
 				</div>
-				<div class="right" style="background-color: red;"></div>			
-				<div class="right" style="background-color: green;"></div>			
-				<div class="right" style="background-color: blue;"></div>			
 			</div>
-		</div>
-	
-		<div class="spBox w clear">
-			<div class="spTopBox spTopBox2 clear">
-				<div class="title left">智能</div>
-				<div class="right">
-					<span class="active">热门</span>
-					<span>电视影音</span>
-					<span>电脑</span>
-					<span>家居</span>
-				</div>
-			</div>
-			<div class="spBtmBox spBtmBox2">
-				<div class="left">
-					<img src="img/jdrm0.jpg"/>
-				</div>
-				<div class="right" style="display: block;">
-					<ul>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm1.jpg"/></a>
-							<h1><a href="#">米家恒温电水壶</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm2.jpg"/></a>
-							<h1><a href="#">米家智能吸尘机器人</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm3.jpg"/></a>
-							<h1><a href="#">米家良心电饭煲</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm4.png"/></a>
-							<h1><a href="#">小米智能电视A1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm5.png"/></a>
-							<h1><a href="#">小米智能电视A2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm6.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm7.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="lb mixbox">
-							<div class="left">
-								<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
-								<h3>299元</h3>
-							</div>
-							<div class="right"><img src="img/jdrm8.jpg"/></div>
-						</li>
-						<li class="gengduo mixbox">
-							<div class="left">
-								<h1 title=""><a href="#">浏览更多</a></h1>
-								<h3><a href="#">热门</a></h3>
-							</div>
-							<div class="right"><a href="#"><span class="fa fa-arrow-circle-o-right"></span></a></div>
-						</li>
+			<div class="nr w clear">
+				<div class="title">内容</div>
+				<div class="box">
+					<ul class="clear">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
 					</ul>
 				</div>
-				<div class="right" style="background-color: red;"></div>			
-				<div class="right" style="background-color: green;"></div>			
-				<div class="right" style="background-color: blue;"></div>			
 			</div>
-		</div>
-	
-		<div class="spBox w clear">
-			<div class="spTopBox spTopBox3 clear">
-				<div class="title left">搭配</div>
-				<div class="right">
-					<span class="active">热门</span>
-					<span>电视影音</span>
-					<span>电脑</span>
-					<span>家居</span>
-				</div>
-			</div>
-			<div class="spBtmBox3 spBtmBox">
-				<div class="left">
-					<img src="img/jdrm0.jpg"/>
-				</div>
-				<div class="right" style="display: block;">
-					<ul>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm1.jpg"/></a>
-							<h1><a href="#">米家恒温电水壶</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm2.jpg"/></a>
-							<h1><a href="#">米家智能吸尘机器人</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm3.jpg"/></a>
-							<h1><a href="#">米家良心电饭煲</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm4.png"/></a>
-							<h1><a href="#">小米智能电视A1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm5.png"/></a>
-							<h1><a href="#">小米智能电视A2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm6.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm7.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="lb mixbox">
-							<div class="left">
-								<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
-								<h3>299元</h3>
-							</div>
-							<div class="right"><img src="img/jdrm8.jpg"/></div>
-						</li>
-						<li class="gengduo mixbox">
-							<div class="left">
-								<h1 title=""><a href="#">浏览更多</a></h1>
-								<h3><a href="#">热门</a></h3>
-							</div>
-							<div class="right"><a href="#"><span class="fa fa-arrow-circle-o-right"></span></a></div>
-						</li>
+			<div class="video w clear">
+				<div class="title">视频</div>
+				<div class="box">
+					<ul class="clear">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
 					</ul>
 				</div>
-				<div class="right" style="background-color: red;"></div>			
-				<div class="right" style="background-color: green;"></div>			
-				<div class="right" style="background-color: blue;"></div>			
 			</div>
 		</div>
-	
-		<div class="spBox w clear">
-			<div class="spTopBox4 spTopBox clear">
-				<div class="title left">配件</div>
-				<div class="right">
-					<span class="active">热门</span>
-					<span>电视影音</span>
-					<span>电脑</span>
-					<span>家居</span>
-				</div>
-			</div>
-			<div class="spBtmBox4 spBtmBox">
-				<div class="left">
-					<img src="img/jdrm0.jpg"/>
-				</div>
-				<div class="right" style="display: block;">
-					<ul>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm1.jpg"/></a>
-							<h1><a href="#">米家恒温电水壶</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm2.jpg"/></a>
-							<h1><a href="#">米家智能吸尘机器人</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm3.jpg"/></a>
-							<h1><a href="#">米家良心电饭煲</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm4.png"/></a>
-							<h1><a href="#">小米智能电视A1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm5.png"/></a>
-							<h1><a href="#">小米智能电视A2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm6.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm7.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="lb mixbox">
-							<div class="left">
-								<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
-								<h3>299元</h3>
-							</div>
-							<div class="right"><img src="img/jdrm8.jpg"/></div>
-						</li>
-						<li class="gengduo mixbox">
-							<div class="left">
-								<h1 title=""><a href="#">浏览更多</a></h1>
-								<h3><a href="#">热门</a></h3>
-							</div>
-							<div class="right"><a href="#"><span class="fa fa-arrow-circle-o-right"></span></a></div>
-						</li>
-					</ul>
-				</div>
-				<div class="right" style="background-color: red;"></div>			
-				<div class="right" style="background-color: green;"></div>			
-				<div class="right" style="background-color: blue;"></div>			
-			</div>
-		</div>
-	
-		<div class="spBox w clear">
-			<div class="spTopBox5 spTopBox clear">
-				<div class="title left">周边</div>
-				<div class="right">
-					<span class="active">热门</span>
-					<span>电视影音</span>
-					<span>电脑</span>
-					<span>家居</span>
-				</div>
-			</div>
-			<div class="spBtmBox5 spBtmBox">
-				<div class="left">
-					<img src="img/jdrm0.jpg"/>
-				</div>
-				<div class="right" style="display: block;">
-					<ul>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm1.jpg"/></a>
-							<h1><a href="#">米家恒温电水壶</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm2.jpg"/></a>
-							<h1><a href="#">米家智能吸尘机器人</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm3.jpg"/></a>
-							<h1><a href="#">米家良心电饭煲</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la lt">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm4.png"/></a>
-							<h1><a href="#">小米智能电视A1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm5.png"/></a>
-							<h1><a href="#">小米智能电视A2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm6.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari1</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="la">
-							<div class="top">享九折</div>
-							<a class="img" href="#"><img src="img/jdrm7.jpg"/></a>
-							<h1><a href="#">小米笔记本Ari2</a></h1>
-							<h4>水温智能控制,304不锈钢内胆</h4>
-							<h3>199元</h3>
-							<p class="bottom">试用了一下,烧水很快,就是声音略大!保温功能暂时没用...
-								<span>来自小明的评论..</span>
-							</p>
-						</li>
-						<li class="lb mixbox">
-							<div class="left">
-								<h1 title="智能电动牙刷米家定制"><a href="#">智能电动牙刷米家定制</a></h1>
-								<h3>299元</h3>
-							</div>
-							<div class="right"><img src="img/jdrm8.jpg"/></div>
-						</li>
-						<li class="gengduo mixbox">
-							<div class="left">
-								<h1 title=""><a href="#">浏览更多</a></h1>
-								<h3><a href="#">热门</a></h3>
-							</div>
-							<div class="right"><a href="#"><span class="fa fa-arrow-circle-o-right"></span></a></div>
-						</li>
-					</ul>
-				</div>
-				<div class="right" style="background-color: red;"></div>			
-				<div class="right" style="background-color: green;"></div>			
-				<div class="right" style="background-color: blue;"></div>			
-			</div>
-		</div>
-	</div>
+		<div class="footer"></div>
 		<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	<br /><br /><br /><br /><br /><br /><br /><br /><br />
-</body>
+		<br /><br /><br /><br /><br /><br /><br /><br /><br />
+	</body>
+
 </html>

@@ -26,6 +26,10 @@ a{
 }
 li{
 	list-style: none;
+	cursor: pointer;
+}
+img{
+	cursor: pointer;
 }
 
 
@@ -590,7 +594,7 @@ li{
 
 /*商品展示部分*/
 .content{
-	padding:20px 0px;
+	padding:20px 0px 60px;
 }
 
 .content .spBox{
@@ -613,6 +617,7 @@ li{
 	color: #424242;
 	line-height: 28px;
 	display: inline-block;
+	cursor: pointer;
 	margin-left: 30px;
 	border-bottom: 2px solid rgba(0,0,0,0);
 	transition: all 0.3s;
@@ -625,19 +630,40 @@ li{
 	position: relative;
 }
 
-.content .spBox .spBtmBox>.left:hover{
+.content .spBox .spBtmBox>.images-left:hover{
 	transform: translateY(-4px);
 	box-shadow:0 15px 30px rgba(0,0,0,0.3);
 }
 .content .spBox .spBtmBox>.left{
-	transition: all 0.3s;
-	position: relative;
 	width:234px;
 	height: 614px;
-	overflow: hidden;
+	position: relative;
+	transition: all 0.3s;
 	/*margin-left: 14px;*/
 }
-.content .spBox .spBtmBox>.left img{
+.content .spBox .spBtmBoxb>.left{
+	height: 554px;
+}
+.content .spBox .spBtmBox>.images-left>img{
+	width: inherit;
+	height: inherit;
+}
+.content .spBox .spBtmBox>.left>.img:hover{
+	transform: translateY(-4px);
+	box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+.content .spBox .spBtmBox>.left>.img{
+	width: 234px;
+	height: 270px;
+	position: relative;
+	transition: all 0.3s;
+	overflow: hidden;
+	margin-bottom: 14px;
+}
+.content .spBox .spBtmBox>.left>.img:last-child{
+	margin-bottom: 0px;
+}
+.content .spBox .spBtmBox>.left>.img>img{
 	width: inherit;
 	height: inherit;
 }
@@ -648,6 +674,9 @@ li{
 	position: absolute;
 	top: 0px;
 	right: 0px;
+}
+.content .spBox .spBtmBoxb>.right{
+	height: 554px;
 }
 .content .spBox .spBtmBox .right ul{
 	width: inherit;
@@ -670,6 +699,9 @@ li{
 	background-color: #FFFFFF;
 	overflow: hidden;
 	float: left;
+}
+.content .spBox .spBtmBoxb .right ul li{
+	height: 270px;
 }
 .content .spBox .spBtmBox .right ul li .top{
 	position: absolute;
@@ -746,6 +778,10 @@ li{
 	box-sizing: border-box;
 	padding: 32px 30px 31px;
 }
+.content .spBox .spBtmBoxb .right ul li.mixbox{
+	height: 128px;
+	padding: 24px 30px 31px;
+}
 .content .spBox .spBtmBox .right ul li.mixbox div{
 	width: 80px;
 	height: 80px;
@@ -785,4 +821,219 @@ li{
 	line-height: 80px;
 	color: #ff6700;
 	font-weight: 100;
+}
+
+/*为您推荐部分*/
+
+.wntj{
+	margin-top: 24px;
+	position: relative;
+}
+.wntj .title{
+	font-size: 20px;
+	line-height: 58px;
+}
+.wntj .span{
+	position: absolute;
+	right: 0px;
+	top: 26px;
+	font-size: 12px;
+	z-index: 4;
+}
+.wntj .span span:hover{
+	color: #FF6700;
+}
+.wntj .span span.active:hover{
+	color: #ff6700;
+}
+.wntj .span span{
+	width: 34px;
+	height: 22px;
+	color: #e0e0e2;
+	display: inline-block;
+	line-height: 22px;
+	border: 1px #e0e0e0 solid;
+	text-align: center;
+}
+.wntj .span span.active{
+	cursor: pointer;
+	color: #b4c1d4;
+}
+.wntj .box{
+	width: inherit;
+	overflow: hidden;
+}
+.wntj .box ul{
+	position: relative;
+}
+.wntj .box ul li{
+	margin-right: 14px;
+	float: left;
+	width: 234px;
+	height: 268px;
+	text-align: center;
+	background-color: #fafafa;
+	transition: all 0.3s;
+}
+.wntj .box ul li:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.3);
+	transform: translateY(-4px);
+}
+.wntj .box ul li .img{
+	margin: 30px auto;
+	margin-bottom: 0px;
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+}
+.wntj .box ul li .img a img{
+	width: 140px;
+	height: 140px;
+}
+.wntj .box ul li .t{
+	font-size: 12px;
+	line-height: 2.2em;
+	text-align: center;
+	width: 100%;
+}
+.wntj .box ul li .t1{
+	color: #212121;
+}
+.wntj .box ul li .t2{
+	color: #B0B0B0;
+}
+.wntj .box ul li .t3{
+	color: #FF6700;
+}
+
+/*热评产品部分*/
+.rpcp{
+	margin-top: 24px;
+}
+
+.rpcp .title{
+	font-size: 20px;
+	line-height: 56px;
+}
+.rpcp .box{
+	width: 100%;
+}
+.rpcp .box ul{}
+.rpcp .box ul li:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.3);
+	transform: translateY(-4px);
+}
+.rpcp .box ul li{
+	transition: all 0.3s;
+	width: 296px;
+	overflow: hidden;
+	height: 415px;
+	background-color: #FFFFFF;
+	float: left;
+	margin-right: 14px;
+}
+.rpcp .box ul li:last-child{
+	margin-right: 0px;
+}
+
+.rpcp .box ul li .img{
+	width: inherit;
+	height: 220px;
+	overflow: hidden;
+}
+.rpcp .box ul li .img img{
+	width: inherit;
+}
+.rpcp .box ul li .p{
+	padding: 28px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.rpcp .box ul li .p1{
+	color: #333333;
+	-webkit-line-clamp: 3;    /*用来限制在一个块元素显示的文本的行数*/
+    display: -webkit-box;    /*必须结合的属性，将对象作为弹性伸缩盒子模型显示*/
+    -webkit-box-orient: vertical;    /*必须结合的属性 ，设置或检索伸缩盒对象的子元素的排列方式*/
+    overflow: hidden;
+}
+.rpcp .box ul li .p2{
+	font-size: 11px;
+	color: #B0B0B0;
+	line-height: 40px;
+}
+.rpcp .box ul li .p3{
+	margin-top: 20px;
+}
+.rpcp .box ul li .p3 a{
+	color: #333333;
+	display: inline-block;
+	margin-left: 10px;
+}
+.rpcp .box ul li .p3 span{
+	display: inline-block;
+	margin: 10px;
+	color: #ff6700;
+}
+
+/*内容部分*/
+.nr{
+	margin-top: 24px;
+}
+
+.nr .title{
+	font-size: 20px;
+	line-height: 56px;
+}
+.nr .box{
+	width: 100%;
+}
+.nr .box ul{}
+.nr .box ul li:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.3);
+	transform: translateY(-4px);
+}
+.nr .box ul li{
+	transition: all 0.3s;
+	width: 296px;
+	overflow: hidden;
+	height: 420px;
+	border-top: 1px solid #ff6700;
+	background-color: goldenrod;
+	float: left;
+	margin-right: 14px;
+}
+.nr .box ul li:last-child{
+	margin-right: 0px;
+}
+
+
+
+/*视频部分*/
+.video{
+	margin-top: 24px;
+}
+
+.video .title{
+	font-size: 20px;
+	line-height: 56px;
+}
+.video .box{
+	width: 100%;
+}
+.video .box ul{}
+.video .box ul li:hover{
+	box-shadow:0 15px 30px rgba(0,0,0,0.3);
+	transform: translateY(-4px);
+}
+.video .box ul li{
+	transition: all 0.3s;
+	width: 296px;
+	overflow: hidden;
+	height: 285px;
+	background-color: red;
+	float: left;
+	margin-right: 14px;
+}
+.video .box ul li:last-child{
+	margin-right: 0px;
 }
